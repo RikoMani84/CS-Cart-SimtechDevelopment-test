@@ -4,8 +4,8 @@
 2. Install it at home, installation instructions can be found here: [root](https://www.cs-cart.ru/docs/latest/install/)
 3. Video tutorials on installation, administration and development for CS-Cart can be viewed here: [root](https://vimeo.com/cscart/collections)
 4. Documentation is here [root](https://www.cs-cart.ru/docs)
-### Module description
 ----------
+### Module description
 The module involves creating an interface in CS-Cart for managing personnel through the admin panel, as well as displaying a page with a list of personnel in the storefront. Step by step:
 
 1. In the admin panel, add the Staff link in the Website section of the top menu.
