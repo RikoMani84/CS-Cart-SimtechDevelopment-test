@@ -1,5 +1,4 @@
 # CS-Cart-Simtech Development test
-----------
 ### Training
 1. First you need to download the CMS for CS-Cart online stores from the following site: [root](http://www.cs-cart.ru/download.html)
 2. Install it at home, installation instructions can be found here: [root](https://www.cs-cart.ru/docs/latest/install/)
