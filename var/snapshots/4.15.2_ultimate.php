@@ -1,5 +1,5 @@
 <?php $snapshot = array (
-  'time' => 1669644518,
+  'time' => 1669690292,
   'files' => 
   array (
     '12a5350b4ec83ef86b6951b308a4cb00' => '/api.php',
@@ -8,6 +8,7 @@
     '2176c1a79d39e7ea656644a5f6f67f2d' => '/index.php',
     '9dbc68fba1deda7acc0733dedca482fa' => '/init.php',
     '067a2cfde2fdfd4db09aa7f050d25d6c' => '/install_ru.html',
+    '72c052cd1c819dea7a57d4ceecce8b9e' => '/local_conf.php',
     'fe2b1fec81bb8f777f92613641453d7b' => '/store_closed.html',
     'd87ce35c76dafd3992f37fe3d8aad772' => '/app/addons/access_restrictions/addon.xml',
     '631afff3d28b3db2a6fec6cda0ae790a' => '/app/addons/access_restrictions/controllers/backend/access_restrictions.php',
