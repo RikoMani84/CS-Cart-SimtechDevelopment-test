@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>staff_members</id>
+    <name>Staff mebers</name>
+    <description>Creating a module for CS-Cart</description>
+
+    <status>active</status>
+
+    <default_language>en</default_language>
+        
+</addon>

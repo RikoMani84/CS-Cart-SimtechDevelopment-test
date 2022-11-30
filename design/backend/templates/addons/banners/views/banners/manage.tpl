@@ -16,6 +16,7 @@
 
 {if $banners}
     {capture name="banners_table"}
+    
         <div class="table-responsive-wrapper longtap-selection">
             <table class="table table-middle table--relative table-responsive">
             <thead
@@ -25,7 +26,6 @@
             <tr>
                 <th width="6%" class="left mobile-hide">
                     {include file="common/check_items.tpl" is_check_disabled=!$has_permission check_statuses=($has_permission) ? $banner_statuses : '' }
-
                     <input type="checkbox"
                         class="bulkedit-toggler hide"
                         data-ca-bulkedit-disable="[data-ca-bulkedit-default-object=true]"

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-11-29 17:46:46
+/* Smarty version 4.1.0, created on 2022-11-30 17:43:39
   from 'C:\OSPanel\domains\CS-Cart-SimtechDevelopment-test\design\backend\templates\addons\banners\views\banners\manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_63861b569958c5_87707128',
+  'unifunc' => 'content_63876c1b7c4810_68929093',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3ceb2287dcbc67fe644061a77f5ddcc0007b32a6' => 
     array (
       0 => 'C:\\OSPanel\\domains\\CS-Cart-SimtechDevelopment-test\\design\\backend\\templates\\addons\\banners\\views\\banners\\manage.tpl',
-      1 => 1665485680,
+      1 => 1669819417,
       2 => 'tygh',
     ),
   ),
@@ -29,7 +29,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_63861b569958c5_87707128 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63876c1b7c4810_68929093 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\CS-Cart-SimtechDevelopment-test\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'C:\\OSPanel\\domains\\CS-Cart-SimtechDevelopment-test\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'C:\\OSPanel\\domains\\CS-Cart-SimtechDevelopment-test\\app\\functions\\smarty_plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('banner','type','creation_date','status','banner','graphic_banner','text_banner','creation_date','edit','delete','status','no_data','add_banner','banners'));
 ?>
@@ -54,6 +54,7 @@ $_smarty_tpl->_assignInScope('has_permission', fn_check_permissions("banners","u
 
 <?php if ($_smarty_tpl->tpl_vars['banners']->value) {?>
     <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "banners_table", null, null);?>
+    
         <div class="table-responsive-wrapper longtap-selection">
             <table class="table table-middle table--relative table-responsive">
             <thead
@@ -64,7 +65,6 @@ $_smarty_tpl->_assignInScope('has_permission', fn_check_permissions("banners","u
                 <th width="6%" class="left mobile-hide">
                     <?php $_smarty_tpl->_subTemplateRender("tygh:common/check_items.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('is_check_disabled'=>!$_smarty_tpl->tpl_vars['has_permission']->value,'check_statuses'=>$_smarty_tpl->tpl_vars['has_permission']->value ? $_smarty_tpl->tpl_vars['banner_statuses']->value : ''), 0, false);
 ?>
-
                     <input type="checkbox"
                         class="bulkedit-toggler hide"
                         data-ca-bulkedit-disable="[data-ca-bulkedit-default-object=true]"
